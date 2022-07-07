@@ -137,7 +137,7 @@ nav .fa-solid{
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 h1{
@@ -241,4 +241,51 @@ h3{
   text-decoration: none;
   cursor: pointer;
   color: #1e81b0;
+}
+
+.services{
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.services-col{
+  flex: 48%;
+  padding: 30px 2px;
+}
+
+.services-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.services-col h1{
+  padding: 0;
+}
+
+.services-col p{
+  padding: 15px 0 25px;
+  color: #000;
+}
+
+.services-col ul{
+  padding: 15px 0 25px;
+}
+
+.services-col ul li{
+  padding: 5px 0;
+  list-style: inside;
+  position: relative;
+}
+
+.promises-col{
+  margin-top: 30px;
+  flex:31%;
+  text-align: center;
+}
+
+.promises-col .fa-solid{
+  position: relative;
+  left:0%
 }
