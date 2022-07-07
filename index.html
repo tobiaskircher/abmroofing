@@ -1,0 +1,115 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>ABM Roofing & Building Ltd</title>
+    <link rel="icon" href="images/icon.ico" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&
+    display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d69146d95c.js"
+    crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">OUR WORK</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Roofing and Building Services in London</h1>
+        <p>With over 10 years experience, we aim to provide 100% satisfaction to
+          every single customer.</p>
+          <a href="https://www.checkatrade.com/trades/abmroofingandbuilding991336?"
+          target="_blank" class="hero-btn">GET QUOTE</a>
+      </div>
+    </section>
+
+    <section class="review">
+      <h1>Reviews</h1>
+      <p>Our average rating is <span id="rating">9.65</span>/10 from a total of
+        <span id="total-reviews">31</span> reviews.
+        You can view all our reviews, or write one, on our
+        <a class="link" href="https://www.checkatrade.com/trades/abmroofingandbuilding991336?" >Checkatrade page.</a></p>
+      <div class="row">
+        <div class="review-col">
+          <h3> Checkatrade Verified Review ✓</h3>
+          <p>Excellent work carried out. Highlighted and discussed any areas of concern, work carried out on time and as promised</p>
+          <h3>9.5/10</h3>
+        </div>
+        <div class="review-col">
+          <h3> Checkatrade Verified Review ✓</h3>
+          <p>The team at ABM roofing did a very good job replacing old roof and installing new roof on my extention.
+            The work was done professionally and within the time specified and the cost was affordable. I would highly recommend this company.</p>
+            <h3>10/10</h3>
+        </div>
+        <div class="review-col">
+          <h3> Checkatrade Verified Review ✓</h3>
+          <p>Work carried out to a excellent standard. Good communication. Friendly competent company. Competitive prices.</p>
+          <h3>10/10</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="images">
+      <h1>Images</h1>
+      <p> Browse our gallery of previous work we have done. You can find a larger range of images on our Checkatrade site.</p>
+      <div class="row">
+        <div class="images-col">
+          <img src="images/img1.jpg">
+          <div class="layer">
+            <h3>Roofing</h3>
+          </div>
+        </div>
+        <div class="images-col">
+          <img src="images/img2.jpg">
+          <div class="layer">
+            <h3>Roofing</h3>
+          </div>
+        </div>
+        <div class="images-col">
+          <img src="images/img3.jpg">
+          <div class="layer">
+            <h3>Roofing</h3>
+          </div>
+        </div>
+    </section>
+
+    <section class="footer">
+      <div class="icons">
+        <a href="tel:07488843003"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto:abmroofing88@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.instagram.com/abmroofinguk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p>©Copyright ABM ROOFING & BUILDING LTD</p>
+    </section>
+
+
+    <script>
+      var rating_text = document.getElementById("rating");
+      var total_reviews_text = document.getElementById("total-reviews");
+      window.onload = function WindowLoad(event) {}
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0"
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px"
+      }
+    </script>
+  </body>
+</html>
