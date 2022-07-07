@@ -1,0 +1,90 @@
+<!--DOCTYPE html-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>ABM Roofing & Building Ltd</title>
+    <link rel="icon" href="images/icon.ico" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&
+    display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d69146d95c.js"
+    crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">OUR WORK</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact</h1>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+              <i class="fa-solid fa-phone"></i>
+              <span>
+                <h5>07488843003</h5>
+                <p>Call between 8am and 8pm</p>
+              </span>
+          </div>
+          <div>
+              <i class="fa-solid fa-envelope"></i>
+              <span>
+                <h5>abmroofing88@gmail.com</h5>
+                <p>Email us at any time</p>
+              </span>
+          </div>
+          <div>
+              <i class="fa-solid fa-house"></i>
+              <span>
+                <h5>Elgin Road</h5>
+                <p>Croydon, London, UK</p>
+              </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.4004618565473!2d-0.08141208397049145!3d51.377317579614015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487600c5217eaa0b%3A0xd960b31c91674dff!2sLingfield%20Court%2C%2034%20Elgin%20Rd%2C%20Croydon%20CR0%206XA!5e0!3m2!1sen!2suk!4v1657199242527!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="footer">
+      <div class="icons">
+        <a href="tel:07488843003"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto:abmroofing88@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.instagram.com/abmroofinguk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p>©Copyright ABM ROOFING & BUILDING LTD</p>
+    </section>
+
+
+    <script>
+      var rating_text = document.getElementById("rating");
+      var total_reviews_text = document.getElementById("total-reviews");
+      window.onload = function WindowLoad(event) {}
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0"
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px"
+      }
+    </script>
+  </body>
+</html>
